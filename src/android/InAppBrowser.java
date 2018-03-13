@@ -444,7 +444,7 @@ public class InAppBrowser extends CordovaPlugin {
      * Closes the dialog
      */
     public void closeDialog() {
-           /*
+           
         this.cordova.getActivity().runOnUiThread(new Runnable() {
             @Override
             public void run() {
@@ -478,7 +478,7 @@ public class InAppBrowser extends CordovaPlugin {
                 }
             }
         });
-           */
+           
     }
 
     /**
